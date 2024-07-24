@@ -1,0 +1,64 @@
+body {
+	background-color: Lightblue;
+	color: white;
+}
+
+Nav {
+	height: 200px;
+	width: 200px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+}
+
+footer {
+	text-align: center;
+	
+}
+
+#memeImage {
+	margin-right: 200px;
+}
+
+Header {
+	text-align: center;
+	font-size: 150%;
+	font-style: bold;
+}
+
+.ButtonStrt {
+	background-color: white;
+	width: 75px;
+	height: 25px;
+	border-radius: 15px;
+	border-color: green;
+}
+
+.ButtonStop {
+	background-color: white;
+	width: 75px;
+	height: 25px;
+	border-radius: 15px;
+	border-color: red;
+}
+
+.ButtonCelebrate {
+	background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) border-box;
+  border-radius: 15px;
+  border: 5px solid transparent;
+  width: 175px;
+  height: 30px;
+	
+}
+
+#palinTitle{
+	text-align:center;
+	text-shadow: 2px 2px darkblue;
+}
+#palinBody{
+	padding-left: 200px;
+}
+#palinStatus{
+	font-size: 150%;
+}

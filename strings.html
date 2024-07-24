@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<!--Assignment 6.1: User Input Validation
+1. Allow user input of first and last names and zipcode
+2. make variable containing first name + space + last name
+3. Check for how many characters, >= 20 present error
+    1. < 20 good entry
+4. check to see if zipcode is accurate
+5. good name and zip, give secret message
+6. add creative image, font etc.
+
+Comment on every line of code
+
+input val on previous version
+
+Palindrome checker
+    1. make a place to submit word for checking
+    2. add button to submit word for checking to palindrome checking function (checkPalin())
+    3. Return whether it is a palindrome or not.
+    4. add 2 elements of style
+
+
+Michael Mattos
+25JUNE2024
+MMATTOS83782@uat.edu
+-->
+
+<head>
+    <title>InputValidation</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="code.js"></script>
+</head>
+
+<body>
+    <header>Welcome to Michael's Input Validaition Page</header>
+    <nav>
+        <h2>Navigation</h2>
+        <h3><a href="./index.html">Home</a><br>
+            <a href="./boards.html">Boards</a><br>
+            <a href="./game.html">Game Page</a><br>
+            <a href="./strings.html">Input Validation</a>
+        </h3>
+    </nav>
+    <h2>input validation section</h2>
+    <div id="loginStatus">Press submit to login</div>
+    <p>
+        Please submit the following information for validation
+    </p>
+    <form id="creditSubmit" onsubmit="return false">
+        First Name: &nbsp;<input type="text" id="fName"><br>
+        Last Name: &ensp;<input type="text" id="lName"><br>
+        Zip Code: &emsp;<input type="number" id="zipCode"><br>
+        <br>
+        <input type="submit" onclick="checkCreds()">
+
+    </form>
+
+    <br>
+    <br>
+    <h2 id="palinTitle">Palindrome Checker</h2>
+    <div id="palinBody"><br>
+        <div id="palinStatus">Palindrome Status</div>
+        <br>
+        <form id="palinSubmit" onsubmit="return false">
+            Enter possible palindrome: <input type="text" id="palinInput"><br>
+            <br>
+            <input type="submit" onclick="checkPalin();">
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<!--
+game page to satisfiy Assignment 3.1 The building Blocks of Javascript - Functions
+Michael Mattos
+28May2024
+MMATTOS83782@uat.edu
+-->
+
+<head>
+    <title>Game Page</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="code.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My game page
+    </header>
+    </h1>
+    <nav>
+        <h3><a href="./index.html">Home</a><br>
+            <a href="./boards.html">Boards</a><br>
+            <a href="./game.html">Game Page</a><br>
+            <a href="./strings.html">Input Validation</a></h3>
+    </nav>
+    <br>
+    <br>
+    <h2>
+        <center>Let's Play Craps
+    </h2>
+    </center>
+    <u>Rules for craps</u><br>
+    <!--the ol tag is used to define a list and the li tags are used to number each item in the list-->
+    <ol>
+        <li>Roll 2 dice</li>
+        <li>add up to 7 or 11, you lose</li>
+        <li>If they are doubles and even, you win!</li>
+        <li>Everything else is a push</li>
+    </ol>
+    <br>
+    <h2>Step on up and try your hand at craps, the best time this side of Sanctuary</h2>
+    <br>
+    <br>
+    <!--The div element and id tags are used to define each result under an ID tag that we can later use the function findElementbyID in our javascript code page to then call upon those elements
+    in the code line to set the results from the code page into the html page-->
+    Die 1 results: <div id="die1Res">Press Play Craps to start game</div><br>
+    Die 2 results: <div id="die2Res">Press Play Craps to start game</div><br>
+    Sum results: <div id="sumRes">Press Play Craps to start game</div><br>
+    Game results: <div id="gameRes">Press Play Craps to start game</div><br>
+    <br>
+    <!--The button tag creates a visual button on our webpage along with the onclick allowing us to actually click the button and attaching it to the playcraps function created in 
+        the js code page-->
+    <button onclick="playCraps();">Play Craps</button>
+
+    <footer>
+		Michael Mattos<br>
+		University of Advancing Technology <br>
+		2625 W Baseline Rd, <br>
+		Tempe, AZ 85283 <br>
+		(800) 658-5744 
+	</footer>
+
+</body>
+
+
+
+
+</html>
